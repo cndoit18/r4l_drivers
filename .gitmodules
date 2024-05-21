@@ -1,0 +1,3 @@
+[submodule "linux_raspberrypi"]
+	path = linux_raspberrypi
+	url = https://github.com/happy-thw/linux_raspberrypi.git
