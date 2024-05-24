@@ -6,6 +6,19 @@
       "QEMU_VERSION": "9.0.0"
     }
   },
+  "features": {
+    "ghcr.io/devcontainers/features/desktop-lite:1": {
+      "password": "r4l_drivers"
+    }
+  },
+  "forwardPorts": [
+    6080
+  ],
+  "portsAttributes": {
+    "6080": {
+      "label": "desktop"
+    }
+  },
   "postCreateCommand": ".devcontainer/postCreateCommand.sh",
   "customizations": {
     "vscode": {
