@@ -6,7 +6,7 @@
       "QEMU_VERSION": "9.0.0"
     }
   },
-  "postCreateCommand": "rustup show",
+  "postCreateCommand": ".devcontainer/postCreateCommand.sh",
   "customizations": {
     "vscode": {
       "extensions": [

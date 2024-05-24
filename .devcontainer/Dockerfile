@@ -40,7 +40,7 @@ RUN sed -i 's/archive.ubuntu.com/mirrors.tuna.tsinghua.edu.cn/g' /etc/apt/source
     add-apt-repository "deb http://apt.llvm.org/$(lsb_release -cs)/ llvm-toolchain-$(lsb_release -cs)-17 main" && \
     apt-get update && \
     apt-get install -y libelf-dev libgmp-dev libmpc-dev bc flex \
-    bison u-boot-tools llvm-17 lld-17 clang-17
+    bison u-boot-tools llvm-17 lld-17 clang-17 aptitude libssl-dev libpixman-1-dev libsdl2-2.0-0
 
 # 2.1. Install Rust
 # - https://www.rust-lang.org/tools/install
