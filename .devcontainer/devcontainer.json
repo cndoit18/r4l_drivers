@@ -19,6 +19,9 @@
       "label": "desktop"
     }
   },
+  "runArgs": [
+    "--privileged"
+  ],
   "postCreateCommand": ".devcontainer/postCreateCommand.sh",
   "customizations": {
     "vscode": {
