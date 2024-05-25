@@ -39,5 +39,9 @@ Cargo.lock
 # Log files (if you are creating logs in debug mode, uncomment this)
 # *.log
 
+rootfs/
+!rootfs/.gitkeep
+firmware/
+!firmware/.gitkeep
 2024-03-12-raspios-bookworm-arm64-lite.img
 # End of https://mrkandreev.name/snippets/gitignore-generator/#Vim,Rust,Vagrant
