@@ -1,7 +1,8 @@
 {
   "name": "r4l_drivers",
   "build": {
-    "dockerfile": "Dockerfile",
+    "context": "${localWorkspaceFolder}",
+    "dockerfile": "${localWorkspaceFolder}/.devcontainer/Dockerfile",
     "args": {
       "QEMU_VERSION": "9.0.0"
     }
